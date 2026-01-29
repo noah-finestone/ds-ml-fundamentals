@@ -1,5 +1,5 @@
 {
   "python.defaultInterpreterPath": "/Users/noahfine/miniforge3/envs/ml-pytorch/bin/python",
-  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "jupyter.notebookFileRoot": "${fileDirname}",
   "python.terminal.activateEnvironment": true
 }
