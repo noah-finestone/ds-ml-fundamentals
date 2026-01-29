@@ -1,9 +1,12 @@
 name: ml-pytorch
 channels:
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
   - python>=3.9
+  - pytorch
+  - torchvision
   - numpy>=1.21
   - scipy>=1.7
   - pandas>=1.3

@@ -1,11 +1,5 @@
+# Virtual environments
 venv/
-__pycache__/
-*.pyc
-.DS_Storeenv/
-__pycache__/
-*.pyc
-.DS_Store
-.ipynb_checkpoints/
 env/
 bin/
 lib/
@@ -14,15 +8,31 @@ share/
 conda-meta/
 man/
 ssl/
-env/
-bin/
-lib/
-include/
-share/
-conda-meta/
-man/
-ssl/
+
+# Python
 __pycache__/
 *.pyc
-.DS_Store
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Data files (uncomment if datasets are large)
+# data/raw/*
+# data/processed/*
+
+# Model files
+models/*.pt
+models/*.pth
+models/*.h5
+models/*.pkl
+!models/.gitkeep
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/*
+!.vscode/settings.json
